@@ -63,23 +63,30 @@ tasksDOM.addEventListener('click', async (e) => {
   loadingDOM.style.visibility = 'hidden'
 })
 
-// form
-
 formDOM.addEventListener('submit', async (e) => {
-  e.preventDefault()
+  e.preventDefault() // Prevent page reload
+
   const name = taskInputDOM.value
 
   try {
+    // POST new task to API
     await axios.post('/api/v1/tasks', { name })
+
+    // Refresh task list
     showTasks()
+
+    // Reset input and show success message
     taskInputDOM.value = ''
     formAlertDOM.style.display = 'block'
     formAlertDOM.textContent = `success, task added`
     formAlertDOM.classList.add('text-success')
   } catch (error) {
+    // Show error alert
     formAlertDOM.style.display = 'block'
     formAlertDOM.innerHTML = `error, please try again`
   }
+
+  // Hide the alert after 3 seconds
   setTimeout(() => {
     formAlertDOM.style.display = 'none'
     formAlertDOM.classList.remove('text-success')
