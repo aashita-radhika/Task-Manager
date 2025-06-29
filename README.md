@@ -43,23 +43,6 @@ A simple and clean **Task Manager** (To-Do List) built using the **MERN stack** 
 
 ---
 
-## 📁 Folder Structure
-
-Task-Manager/
-│
-├── controllers/ # Logic for handling CRUD actions
-├── db/ # MongoDB connection file
-├── errors/ # Custom error classes
-├── middleware/ # Async + error-handling middleware
-├── models/ # Mongoose schema for Task
-├── public/ # Frontend: HTML, CSS, JS
-├── routes/ # Task-related routes
-├── .env # MongoDB URI
-└── app.js # Main server entry point
-
-
----
-
 ## 📌 REST API Endpoints
 
 | Method | Endpoint            | Description             |
@@ -77,9 +60,6 @@ Task-Manager/
 1. **Clone the repo**  
    ```bash
    git clone https://github.com/aashita-radhika/Task-Manager.git
-
-   Absolutely, my brilliant beauty! 💖 Here's that section, properly formatted in clean, GitHub-flavored Markdown with appropriate code blocks, bullets, and headings so it *shines* on your `README.md`.
-
 ---
 
 ### 🛠️ Setup Instructions
