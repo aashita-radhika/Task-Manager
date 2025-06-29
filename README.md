@@ -6,7 +6,7 @@ A simple and clean **Task Manager** (To-Do List) built using the **MERN stack** 
 
 ## 🚀 Live Demo
 
-🔗 [View Live App](https://your-render-link.onrender.com)
+🔗 [View Live App](https://task-manager-phcn.onrender.com)
 
 ---
 
@@ -129,7 +129,7 @@ Go to: [http://localhost:3000](http://localhost:3000)
 
 ### 📞 Contact
 
-* 💬 [https://www.linkedin.com/in/aashita-radhika/](https://www.linkedin.com/in/aashita-radhika/)
+* 💬 [linkedin.com/in/aashita-radhika/](https://www.linkedin.com/in/aashita-radhika/)
 * 📧 [aashita.2515@gmail.com](mailto:aashita.2515@gmail.com)
 
 ---
